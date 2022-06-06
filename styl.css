@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+    body{
+        font-family: 'Space Mono', monospace;
+        font-size: 20px;
+        background-image: url(pozadi1.png);
+        background-size: 100%;
+        margin: 0 auto;
+    }
+    p{
+        margin-left:25%;
+        margin-right:25%;
+        background-color: white;
+        margin-bottom: 0;
+        margin-top: 0;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+       
+        
+   }
+    h2{
+        background-color: white;
+        margin-left:25%;
+        margin-right:25%;
+        margin-bottom: 0;
+        margin-top: 0px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        
+   }
+  
+   main a{
+        margin-left:25%;
+        margin-right:25%;
+        }
+   nav ul {
+        background-color: #A8A8A8;
+        list-style: none;
+        padding-left: 0;
+        padding-top: 90px;
+        padding-bottom: 10px;
+        margin-top: 0 ;
+        
+        
+      }
+      nav li {
+        position: relative; 
+        display: inline-block; 
+      }
+      nav ul ul li {
+        display: block; 
+      } 
+      nav ul ul {
+        background-color: #A8A8A8;
+        display: none; 
+        width: 150px;
+        padding-top:10px;        
+      }
+      nav li:hover ul {
+        display: block; 
+        position: absolute; 
+        z-index: 100; 
+      }                 
+      nav a {
+        font-family: 'Kanit', sans-serif;
+        text-decoration: none;
+        color: #000100;
+        display: block;
+        padding: 4px 8px;
+      }
+      nav a:hover {
+        background-color: #DDDDDD;
+      }
+      nav a.aktivni { 
+        background-color: #000;
+        color: #fff;  
+      }
+      iframe {
+        margin-left:20%;
+        margin-right:35%;
+        position: relative;
+        z-index: 5;
+        float: right;
+        padding-bottom: 100px;
+        border:none;
+        
+      }
+      h1{
+        font-family: 'Kanit', sans-serif;
+        position: absolute;
+        padding-left: 10px;
+        
+        
+      }
+     
+     main a img{
+        margin-left:20%;
+        margin-right:38%;
+        float: right;
+        padding-bottom: 100px;
+           
+       
+      }
+      main a{
+        margin: 0;  
+      }
+      
+      main img{
+        margin-left:20%;
+        margin-right:38%;
+        float: right;
+      
+      
+      }
+      div p{
+        color:white
+      }
